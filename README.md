@@ -73,8 +73,8 @@ This project is licensed under the MIT License — feel free to use, modify, and
 ## 🧪 How to Use Locally
 
 ```bash
-git clone https://github.com/cdrapos/a-simple-weather-app.git
+git clone https://github.com/yourusername/weather-app.git
 cd weather-app
-open index.html ```
+open index.html
 
 
