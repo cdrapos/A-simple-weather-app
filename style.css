@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #cceeff, #ffffff);
+  text-align: center;
+  padding: 2rem;
+  color: #333;
+  /*  background: linear-gradient(to bottom, #1e1e2f, #111122);  Dark mode colors*/
+}
+
+/* === Main Container Styling === */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive tweak */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+
+/* Dark mode container */
+body.dark .container {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 2rem;
+}
+
+/* Footer in dark mode */
+body.dark .footer {
+  color: #aaa;
+}
+
+input,
+button {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styling buttons*/
+button.get-weather {
+  font-size: 1rem;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.result {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+
+  input,
+  button {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+.forecast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .forecast-card {
+    width: 100%;
+  }
+}
+
+.forecast-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  flex: 1 1 30%;
+  min-width: 150px;
+  margin: 0.5rem;
+  transition: transform 0.3s ease;
+}
+.forecast-card:hover {
+  transform: translateY(-5px);
+}
+.wi {
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.forecast-card .wi {
+  display: block;
+  margin: 0 auto;
+  font-size: 2rem;
+}
+/* Dark Mode Body Styling */
+body.dark {
+  background: linear-gradient(to bottom, #121212, #1e1e1e);
+  color: #e0e0e0;
+}
+
+/* Input Fields */
+body.dark input,
+body.dark select,
+body.dark textarea {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+/* Dark Mode Buttons */
+body.dark button {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+body.dark button:hover {
+  background-color: #444;
+}
+
+/* Dark Mode Weather Result Container */
+body.dark #weatherResult {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/* Forecast Cards */
+body.dark .forecast-card {
+  background-color: #2c2c2c;
+  color: #fff;
+  border: 1px solid #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Icons */
+.wi,
+.fas {
+  color: inherit; /* inherit current text color */
+}

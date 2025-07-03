@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Simple Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="darkModeToggle">🌓 Toggle Dark Mode</button>
+      <h1>What's the Weather 🌡️ </h1>
+      <input type="text" id="cityNameInput" list="citiesList" placeholder="Enter city name" />
+      <datalist id="citiesList">
+      </datalist>
+        <button id="searchBtn">Get Weather</button>
+         <button id="changeMetric">Toggle °C / °F</button>
+         <button id="reset">Clear</button>
+      <div class="result" id="weatherResult"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+      <footer class="footer">
+  <p>© 2025 Christos Apostolidis. All rights reserved.</p>
+</footer>
+  </body>
+</html>
