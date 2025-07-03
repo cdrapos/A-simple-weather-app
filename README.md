@@ -38,10 +38,9 @@ It fetches live weather data using the free [wttr.in API](https://wttr.in), with
 
 ## 📸 Preview
 
-| Light Mode | Dark Mode |
-|------------|-----------|
-| ![light](https://github.com/user-attachments/assets/a070ec92-ffa0-4540-ba3f-2260713ad4f0) |
-| ![dark](https://github.com/user-attachments/assets/f988f1df-e0dd-431b-8d03-3f249f3add28) |
+| Light Mode                                                                 | Dark Mode                                                                 |
+|----------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| ![light](https://github.com/user-attachments/assets/a070ec92-ffa0-4540-ba3f-2260713ad4f0) | ![dark](https://github.com/user-attachments/assets/f988f1df-e0dd-431b-8d03-3f249f3add28) |
 
 
 ---
