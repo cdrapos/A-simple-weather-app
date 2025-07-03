@@ -48,7 +48,7 @@ It fetches live weather data using the free [wttr.in API](https://wttr.in), with
 
 ---
 
-📌 TODO / Future Improvements:
+## 📌 TODO / Future Improvements:
  🎯Add hourly forecast chart
  🎯Improve error handling and messages
  🎯Make PWA (Progressive Web App) support
