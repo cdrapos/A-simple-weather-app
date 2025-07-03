@@ -22,7 +22,7 @@ It fetches live weather data using the free [wttr.in API](https://wttr.in), with
 
 ## 🚀 Demo
 
-> [Live Demo on GitHub Pages](//////////////////////////////////////////////////////
+> [Live Demo on GitHub Pages](https://cdrapos.github.io/A-simple-weather-app/)
 
 ---
 
