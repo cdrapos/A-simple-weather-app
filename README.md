@@ -38,6 +38,7 @@ It fetches live weather data using the free [wttr.in API](https://wttr.in), with
 ---
 
 ## 📁 Project Structure
+```
 📦 weather-app
 ├── 📄 index.html
 ├── 🎨 style.css
@@ -45,7 +46,7 @@ It fetches live weather data using the free [wttr.in API](https://wttr.in), with
 ├── 🖼️ /assets
 │   └── preview.png
 └── 📄 README.md
-
+```
 ---
 
 ## 📌 TODO / Future Improvements:
