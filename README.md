@@ -43,8 +43,6 @@ It fetches live weather data using the free [wttr.in API](https://wttr.in), with
 ├── 📄 index.html
 ├── 🎨 style.css
 ├── ⚙️ script.js
-├── 🖼️ /assets
-│   └── preview.png
 └── 📄 README.md
 ```
 ---
